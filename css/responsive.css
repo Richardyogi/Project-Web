@@ -1,0 +1,105 @@
+@media all and (max-widht: 1000px) {
+  .container {
+    padding-left: 90px;
+    padding-top: 10px;
+    position: absolute;
+    animation: mymove 3s infinite;
+    animation-timing-function: ease-out;
+  }
+
+  @keyframes mymove {
+    from {
+      left: 0px;
+    }
+    to {
+      left: 100px;
+    }
+  }
+
+  .berita-univ {
+    width: 18%;
+  }
+
+  .berita-icon img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 90px;
+  }
+
+  .deskripsi-berita h4 {
+    text-align: left;
+    font-size: small;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+
+  .deskripsi-berita p {
+    text-align: left;
+    color: #2e2d2ee8;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+
+  .deskripsi-berita {
+    font-size: 12px;
+    width: 80%;
+    display: inline-block;
+    margin-top: 20px;
+    padding: 20px;
+  }
+}
+
+@media all and (max-width: 670px) {
+  .logo img {
+    width: 8%;
+    display: flex;
+    float: left;
+  }
+
+  .container {
+    padding-left: 90px;
+    padding-top: 3px;
+    position: absolute;
+    animation: mymove 3s infinite;
+    animation-timing-function: ease-out;
+  }
+
+  @keyframes mymove {
+    from {
+      left: 0px;
+    }
+    to {
+      left: 100px;
+    }
+  }
+
+  .berita-univ {
+    width: 18%;
+  }
+
+  .berita-icon img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 60px;
+  }
+
+  .deskripsi-berita h4 {
+    text-align: left;
+    font-size: 10px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+
+  .deskripsi-berita p {
+    text-align: justify;
+    color: #2e2d2ee8;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+
+  .deskripsi-berita {
+    font-size: 12px;
+    width: 80%;
+    display: inline-block;
+    margin-top: 20px;
+    padding: 10px;
+  }
+}

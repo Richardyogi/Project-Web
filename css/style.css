@@ -36,7 +36,7 @@
 }
 
 .header-search {
-  background-color: gray;
+  background-color: #0f243b;
   height: 24px;
 }
 
@@ -58,29 +58,31 @@
   float: right;
 }
 
-.header-title {
-  padding: 20px;
-  font-family: "Keepsmile";
+.header-univ {
+  height: 180px;
+  background-color: rgb(171, 171, 204);
 }
 
 .heading-berita h3 {
   border-bottom: 2px solid #dee7ec;
-  padding-bottom: 15px;
-  margin-bottom: 20px;
+  padding: 15px;
   font-size: 28px;
   font-family: "Flamante Serif";
 }
-.header-univ {
-  display: flex;
-  justify-content: center;
-  background-color: #6666ff;
-}
 
 .container {
-  display: flex;
+  padding-left: 150px;
+  padding-top: 10px;
   position: relative;
   animation: mymove 5s infinite;
   animation-timing-function: ease-out;
+}
+
+.header-menu {
+  height: 65px;
+  display: flex;
+  justify-content: center;
+  background-color: rgb(161, 161, 199);
 }
 
 @keyframes mymove {
@@ -88,23 +90,18 @@
     left: 0px;
   }
   to {
-    left: 300px;
+    left: 100px;
   }
 }
 
-.header-univ img {
+.logo img {
   width: 20%;
-}
-
-.header-menu {
-  justify-content: center;
   display: flex;
-  background-color: #6666ff;
+  float: left;
 }
 
 .header-menu ul {
   list-style-type: none;
-  padding: 15px;
 }
 
 .header-menu li {
@@ -125,7 +122,7 @@
 }
 
 .active {
-  background-color: rgb(81, 165, 180);
+  background-color: rgb(133, 136, 182);
 }
 
 .berita-agenda {
@@ -174,6 +171,7 @@
   width: 80%;
   display: inline-block;
   margin-top: 20px;
+  padding: 35px;
 }
 
 .agenda {
@@ -181,10 +179,19 @@
   margin: 10px 10px;
   float: right;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  padding: 10px;
 }
 
 .agenda h3 {
   font-family: "Flamante Serif";
+}
+
+.event-agenda {
+  padding: 10px;
+}
+
+.event-agenda p {
+  font-size: small;
 }
 
 .detail-agenda {
@@ -198,23 +205,15 @@
   box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
 }
 
-.container {
-  width: 50%;
+.container-info {
+  width: 75%;
 }
 
 .univ-info {
-  width: 25%;
-
-  padding: 10px;
-}
-
-.univ-contact {
-  width: 25%;
-  float: right;
-  padding: 10px;
+  padding-left: 40px;
+  width: 50%;
 }
 
 .list-info li {
-  padding-bottom: 10px;
   font-size: 18px;
 }
